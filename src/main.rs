@@ -1,5 +1,8 @@
 use std::process::Command;
 
+#[cfg(not(windows))]
+compile_error!("This program is only meant for Windows.");
+
 fn main() {
     let args: Vec<_> = std::env::args().collect();
     if args.len() != 2 {
