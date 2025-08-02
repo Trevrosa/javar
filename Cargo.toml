@@ -2,5 +2,11 @@
 name = "javar"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+description = "run .jar files on double-click (windows only)"
+homepage = "https://github.com/Trevrosa/javar/"
+repository = "https://github.com/Trevrosa/javar/"
+readme = "README.md"
+keywords = ["windows", "java", "jar", "run"]
 
 [dependencies]
